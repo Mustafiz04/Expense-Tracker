@@ -14,7 +14,7 @@ export const Transaction = ({transaction}) => {
 
     return (
         <li className={transaction.amount < 0 ? 'minus' : 'plus'}>
-            {transaction.text} <span>{sign}RS{numberWithCommas(Math.abs(transaction.amount))}</span>
+            {transaction.text} <span>{sign}&#8377;{numberWithCommas(Math.abs(transaction.amount))}</span>
             {/* <button>
                 <IconButton aria-label="delete" onClick={() => deleteTransaction(transaction._id)} className='delete-btn' >
                     <Delete />

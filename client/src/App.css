@@ -142,12 +142,12 @@ input[type='number'] {
   position: absolute;
   right: -16%;
   transform: translate(0, -30%);
-  opacity: 0;
+  display: none;
   transition: opacity 0.3s ease;
 }
 
 .list li:hover .delete-btn {
-  opacity: 1;
+  display: block;
 }
 .list li:hover {
   width: 90%;
