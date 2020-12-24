@@ -1,6 +1,5 @@
 {
   "name": "expensetracker",
-  "homepage": "https://Mustafiz04.github.io/Expense-Tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
